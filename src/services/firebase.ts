@@ -4,13 +4,12 @@ import { getReactNativePersistence, initializeAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDS_dmdvfTqLNSglHqVCBUtt_rNdFloYCM",
-  authDomain: "storeapp-f525d.firebaseapp.com",
-  projectId: "storeapp-f525d",
-  // storageBucket: "storeapp-f525d.appspot.com",
-  storageBucket: "storeapp-f525d.firebasestorage.app",
-  messagingSenderId: "648708062948",
-  appId: "1:648708062948:web:c267ad3b6d72ea98b876f1",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
