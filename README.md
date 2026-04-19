@@ -1,8 +1,8 @@
-# Shoply
+# Stack
 
 A modern e-commerce mobile app built with **React Native (Expo)** and **Firebase**.
 
-Shoply allows users to browse products, search, add to cart, and lets sellers manage their own products.
+Stack allows users to browse products, search, add to cart, and lets sellers manage their own products.
 
 ---
 

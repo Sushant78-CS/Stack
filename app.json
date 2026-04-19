@@ -4,7 +4,6 @@
     "slug": "Stack",
     "version": "1.0.0",
     "orientation": "portrait",
-    // "icon": "./assets/images/icon.png",
     "icon": "https://img.icons8.com/?size=100&id=85180&format=png&color=000000",
     "scheme": "stack",
     "userInterfaceStyle": "automatic",
